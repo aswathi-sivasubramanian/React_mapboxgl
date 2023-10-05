@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react'
 import '../styles/Sizing.css'
 import "../styles/Map.css"
 import mapboxgl from "mapbox-gl";
-import features from './trees.json';
+import features from './nyc.json';
 mapboxgl.accessToken =
   "pk.eyJ1IjoiYXN3YXRoaXMwNyIsImEiOiJjbG1pcG5nbjcwc3NiM2xuc3dmZHc4bHhxIn0.Sjxf7YoCzfBIm7t0zbnFnQ";
 
