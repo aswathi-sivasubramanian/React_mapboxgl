@@ -4,7 +4,7 @@ import "../styles/Map.css"
 import mapboxgl from "mapbox-gl";
 import features from './nyc.json';
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiYXN3YXRoaXMwNyIsImEiOiJjbG1pcG5nbjcwc3NiM2xuc3dmZHc4bHhxIn0.Sjxf7YoCzfBIm7t0zbnFnQ";
+  "YOUR_API_TOKEN";
 
 const Map = ({ cen, setCen }) => {
 
